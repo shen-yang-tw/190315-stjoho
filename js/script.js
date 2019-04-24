@@ -1,3 +1,31 @@
+//--Checkbox toggle check - <input type="checkbox" onchange="toggleCheck(this, '.listCheck')"> or <button onclick="toggleCheck(this, '.listCheck')">
+function toggleCheckAll(thisClick, inputClass) {
+  //thisClick means the "owner" and CANNOT use "this" that means the Global object "Window"
+  thisClick.classList.toggle("checked");
+  var i, el = document.querySelectorAll(inputClass);
+  //--set all input checked & unchecked--
+  if (thisClick.classList.contains("checked")) {
+    //if 'select all' checked
+    for (i = 0; i < el.length; i++) {
+      el[i].checked = true;
+      el[i].offsetParent.classList.add("checked");
+      //parent el<li> add class "checked" when input checked
+    }
+  } else {
+    //if 'select all' unchecked
+    for (i = 0; i < el.length; i++) {
+      el[i].checked = false;
+      el[i].offsetParent.classList.remove("checked");
+      //parent el<li> remove class "checked" when input unchecked
+    }
+  }
+}
+
+//--------------- end pure js ----------------------------------------------------------//
+
+
+
+
 // fix 100 vh in Android Chrome
 var vhFix = new VHChromeFix([{
   selector: '.fullViewH',
@@ -34,24 +62,9 @@ $(document).ready(function() {
     }
   });
 
-  //rangeSlider
-  $("#range").ionRangeSlider({
-    hide_min_max: true,
-    keyboard: true,
-    min: 1896,
-    max: 2019,
-    from: 1896,
-    to: 2019,
-    type: 'double',
-    step: 1,
-    postfix: "年",
-    grid: true,
-    prettify_enabled: false
-  });
-
   //remove self after show .listMore
   $(".btnMore").click(function() {
-    $(this).parent().siblings(".listMore").removeClass("uk-hidden");
+    $(this).parent().siblings(".listMore").removeClass("hidden");
     $(this).parent().remove();
   });
 
