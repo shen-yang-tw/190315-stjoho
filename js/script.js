@@ -209,9 +209,9 @@ $(document).ready(function() {
     $(this).parent().siblings().children().find(".uk-slider").css('min-height', height_Slider);
     $(this).parent().siblings().children().find(".uk-slider").children("li").find(".uk-panel").children("img").height(width_img);
   });
-  $(window).on('resize', function() {
-    location.reload();
-  });
+  // $(window).on('resize', function() {
+  //   location.reload();
+  // });
 
 });
 
