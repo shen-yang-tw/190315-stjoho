@@ -190,6 +190,7 @@ ol.listDecimalRow.badge>li:before {background: #61c3fb;}
 .uk-list .uk-offcanvas.uk-active>div {width: calc(100% / 3);background-color: rgba(97, 195, 182, 0.9) !important;}
 .uk-list .uk-offcanvas.uk-active>div>div:first-child {display: none;}
 
+
 footer, footer a {color: white !important;}
 
 /* Uikit Style

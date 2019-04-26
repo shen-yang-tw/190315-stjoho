@@ -683,7 +683,7 @@ input:not([type]).uk-form-large, input[type].uk-form-large, select.uk-form-large
     border-radius: 4px 4px 0 0;
     border-bottom: 0;
 }
-.uk-offcanvas, .uk-dropdown.uk-position-z-index {z-index: 1035;}
+.banner.uk-position-z-index, .uk-offcanvas, .uk-dropdown.uk-position-z-index {z-index: 1035;}
 /* End Uikit Style
 ---------------------------------------------------- */
 .container_responsive {padding: 0;}
