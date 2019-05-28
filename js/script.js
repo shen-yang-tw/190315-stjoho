@@ -65,7 +65,7 @@ $(document).ready(function() {
 
   //remove self after show .listMore
   $(".btnMore").click(function() {
-    $(this).parent().siblings(".listMore").removeClass("hidden");
+    $(this).parent().siblings(".listMore").removeClass("hidden uk-hidden");
     $(this).parent().remove();
   });
 
