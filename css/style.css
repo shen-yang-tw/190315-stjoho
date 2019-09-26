@@ -1,18 +1,18 @@
 @charset "utf-8";
-.link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .uk-breadcrumb a:visited, .uk-breadcrumb a:focus {color: #61c3fb;}
-.color_primary, .color_primary *, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover {color: #61c3fb !important;}
-a.color_primary:hover, a.color_primary:hover *, .color_primary a:hover {color: #58b1e4 !important;}
-.color_secondary, .color_secondary *, .hover_color_secondary:focus, .hover_color_secondary:hover, ul.hover_color_secondary>li>a:focus, ul.hover_color_secondary>li>a:hover {color: #25abf7 !important;}
-a.color_secondary:hover, a.color_secondary:hover *, .color_secondary a:hover {color: #219be0 !important;}
-.bg_hover_white_color_primary:focus, .bg_hover_white_color_primary:hover {color: #61c3fb !important; background-color: white;}
-.bg_primary, .btn_primary, .hover_bg_primary:hover, ul.hover_bg_primary>li>a:focus, ul.hover_bg_primary>li>a:hover, .uk-block-primary, .uk-pagination>li.uk-active span {color: white !important;background-color: #61c3fb !important;}
-.bg_secondary, .btn_secondary, .hover_bg_secondary:hover, nav.bg_secondary .uk-dropdown a, ul.hover_bg_secondary>li>a:focus, ul.hover_bg_secondary>li>a:hover, .uk-block-secondary {color: white !important;background-color: #25abf7 !important;}
-.btn_primary:focus, .btn_primary:hover, .btn_primary.selected {text-decoration: none; background-color: #58b1e4 !important;}
-.btn_secondary:focus, .btn_secondary:hover {background-color: #219be0 !important;}
-.border_secondary {border-color: #25abf7}
-.fontsize li>a {color: #61c3fb !important; border: 1px solid #61c3fb;}
-.fontsize li.uk-active>a, .fontsize li.uk-open>a, .fontsize li>a:focus, .fontsize li>a:hover {background: #61c3fb !important; border-color: #61c3fb; color: white !important;}
-ol.listDecimalRow.badge>li:before {background: #61c3fb;}
+.link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .uk-breadcrumb a:visited, .uk-breadcrumb a:focus {color: #1976ab;}
+.color_primary, .color_primary *, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover {color: #1976ab !important;}
+a.color_primary:hover, a.color_primary:hover *, .color_primary a:hover {color: #15618c !important;}
+.color_secondary, .color_secondary *, .hover_color_secondary:focus, .hover_color_secondary:hover, ul.hover_color_secondary>li>a:focus, ul.hover_color_secondary>li>a:hover {color: #0088b1 !important;}
+a.color_secondary:hover, a.color_secondary:hover *, .color_secondary a:hover {color: #007598 !important;}
+.bg_hover_white_color_primary:focus, .bg_hover_white_color_primary:hover {color: #1976ab !important; background-color: white;}
+.bg_primary, .btn_primary, .hover_bg_primary:hover, ul.hover_bg_primary>li>a:focus, ul.hover_bg_primary>li>a:hover, .uk-block-primary, .uk-pagination>li.uk-active span {color: white !important;background-color: #1976ab !important;}
+.bg_secondary, .btn_secondary, .hover_bg_secondary:hover, nav.bg_secondary .uk-dropdown a, ul.hover_bg_secondary>li>a:focus, ul.hover_bg_secondary>li>a:hover, .uk-block-secondary {color: white !important;background-color: #0088b1 !important;}
+.btn_primary:focus, .btn_primary:hover, .btn_primary.selected {text-decoration: none; background-color: #15618c !important;}
+.btn_secondary:focus, .btn_secondary:hover {background-color: #007598 !important;}
+.border_secondary {border-color: #0088b1}
+.fontsize li>a {color: #1976ab !important; border: 1px solid #1976ab;}
+.fontsize li.uk-active>a, .fontsize li.uk-open>a, .fontsize li>a:focus, .fontsize li>a:hover {background: #1976ab !important; border-color: #1976ab; color: white !important;}
+ol.listDecimalRow.badge>li:before {background: #1976ab;}
 .aspectRatio:before {/*width: 100px;*/ /* if width=0 then set custom width */}
 .aspectRatio.ratio_9_16:before {/*width: 100px;*/ /* if width=0 then set custom width */}
 .icon {width: 10em;}
@@ -24,12 +24,12 @@ ol.listDecimalRow.badge>li:before {background: #61c3fb;}
   box-shadow: inset 0 2px 50px 2px rgba(74, 123, 134, 0.5);
 }
 .monthly .monthly-header-title-date, .monthly .monthly-header-title-date:hover {
-    background: #25abf7!important;
-    border: 1px solid #25abf7!important;
+    background: #0088b1!important;
+    border: 1px solid #0088b1!important;
     color: #FFFFFF!important;
 }
 .monthly-today .monthly-day-number {
-    background: #25abf7;
+    background: #0088b1;
 }
 .monthly-header-title a:hover {
     background: #ebedee;
@@ -37,7 +37,7 @@ ol.listDecimalRow.badge>li:before {background: #61c3fb;}
     color: #444;
 }
 .monthly-event-list .monthly-today .monthly-event-list-date {
-    color: #61c3fb;
+    color: #1976ab;
     font-weight: bolder;
 }
 
@@ -55,7 +55,7 @@ ol.listDecimalRow.badge>li:before {background: #61c3fb;}
 .listTabs a:hover, .listTabs .uk-active>a,
 .nav_side a:hover, .nav_side .uk-active a {
   color: white !important;
-  background-color: #61c3fb;
+  background-color: #1976ab;
   text-decoration: none;
 }
 .listTabs .uk-grid-divider>li, .listTabs .uk-grid-divider>li:last-child:nth-child(odd) {
@@ -73,7 +73,7 @@ ol.listDecimalRow.badge>li:before {background: #61c3fb;}
   border-bottom: 2px solid #dcdada;
 }
 .listTabs .uk-nav a {
-  color: #61c3fb;
+  color: #1976ab;
   padding: 5px 15px;
 }
 .listTabs.listIconIndent .uk-nav a {
@@ -91,7 +91,7 @@ ol.listDecimalRow.badge>li:before {background: #61c3fb;}
 .listTabs .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a,
 .listTabs li.level3 .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a,
 .listTabs .uk-nav>li.level3 li li>a {
-  color: #61c3fb !important;
+  color: #1976ab !important;
   background-color: transparent;
 }
 .listTabs .uk-nav li a:hover,
@@ -101,12 +101,12 @@ ol.listDecimalRow.badge>li:before {background: #61c3fb;}
 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="true"] li[aria-expanded="false"]>a:hover,
 .listTabs .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover,
 .nav_side .uk-nav li a:hover, .nav_side .uk-nav>li.uk-active>a {
-  background: #61c3fb;
+  background: #1976ab;
   color: white !important;
 }
 .listTabs .uk-nav>li.level3 li>a,
 .listTabs .uk-nav>li.level3[aria-expanded="true"] li[aria-expanded="true"]>a {
-  background: #25abf7;
+  background: #0088b1;
   color: white !important;
 }
 .listTabs.listTabs_grey .uk-nav a {
@@ -121,7 +121,7 @@ ol.listDecimalRow.badge>li:before {background: #61c3fb;}
   background: #cfd8dc;
 }
 .listTabs.listTabs_secondary .uk-nav a {
-  color: #25abf7;
+  color: #0088b1;
 }
 .listTabs.listTabs_secondary .uk-nav li a:hover,
 .listTabs.listTabs_secondary .uk-nav>li.uk-active>a,
@@ -131,7 +131,7 @@ ol.listDecimalRow.badge>li:before {background: #61c3fb;}
 .listTabs.listTabs_secondary .uk-nav>li[aria-expanded="true"] li[aria-expanded="false"] li>a:hover
 .nav_side.nav_side_secondary .uk-nav li a:hover,
 .nav_side.nav_side_secondary .uk-nav>li.uk-active>a {
-  background: #25abf7;
+  background: #0088b1;
 }
 #header .bg_img {
   overflow: hidden;
@@ -198,15 +198,15 @@ footer, footer a {color: white !important;}
 ---------------------------------------------------- */
 .uk-pagination a {margin-bottom: 5px;}
 .uk-pagination>.uk-active>span, .uk-pagination>li>a:focus, .uk-pagination>li>a:hover, .uk-nav-dropdown>li.uk-active>a, .uk-nav-dropdown>li>a:focus, .uk-nav-dropdown>li>a:hover, .uk-subnav-pill a:hover, .uk-subnav-pill>.uk-active>*, .uk-tab.tab_primary li.uk-active>a, .uk-tab>li.uk-open>a, .uk-tab>li>a:focus, .uk-tab>li>a:hover {
-    background-color: #61c3fb;
+    background-color: #1976ab;
     color: #fff !important;
 }
 .pagination_secondary.uk-pagination>.uk-active>span, .pagination_secondary.uk-pagination>li>a:focus, .pagination_secondary.uk-pagination>li>a:hover, .subnav_secondary.uk-subnav-pill a:hover, .subnav_secondary.uk-subnav-pill>.uk-active>*, .uk-tab.tab_secondary li.uk-active a {
-    background-color: #25abf7;
+    background-color: #0088b1;
     color: #fff !important;
 }
 .uk-tab>li>a, .uk-subnav:not(.uk-subnav-pill)>*>:focus, .uk-subnav:not(.uk-subnav-pill)>*>:hover, .uk-subnav:not(.uk-subnav-pill)>.uk-active>*, .uk-subnav:not(.uk-subnav-pill) .uk-open>a {
-    color: #61c3fb;
+    color: #1976ab;
     transition: none;
 }
 .slider_choice .uk-active a {
